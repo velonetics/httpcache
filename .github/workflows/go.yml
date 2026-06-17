@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Test
-      uses: docker://velonetics/builder:latest-linux-generic
+      uses: docker://niteesh20/builder:latest-linux-generic
       with:
         args: sh -c "go get -t -v ./...;
          gofmt -w -s . && git diff --exit-code;
