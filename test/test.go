@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/velonetics/httpcache"
+	"github.com/pucora/httpcache"
 )
 
 // Cache excercises a httpcache.Cache implementation.

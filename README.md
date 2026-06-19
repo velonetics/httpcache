@@ -2,9 +2,9 @@ httpcache
 =========
 
 This a fork of github.com/gregjones/httpcache which includes various fixes.
-Original backends are removed since are not used by Velonetics.
+Original backends are removed since are not used by Pucora.
 
-[![GoDoc](https://godoc.org/github.com/velonetics/httpcache?status.svg)](https://godoc.org/github.com/velonetics/httpcache)
+[![GoDoc](https://godoc.org/github.com/pucora/httpcache?status.svg)](https://godoc.org/github.com/pucora/httpcache)
 
 Package httpcache provides a http.RoundTripper implementation that works as a mostly [RFC 7234](https://tools.ietf.org/html/rfc7234) compliant cache for http responses.
 
